@@ -131,7 +131,7 @@ queries = """
   }
 }
 """
-
+# using post to fetch data
 response = requests.post(url, json={'query': queries})
 data = response.json()
 
@@ -143,6 +143,7 @@ uniswapDayDatas_data = data['data']['uniswapDayDatas']
 pairDayDatas_data = data['data']['pairDayDatas']
 tokenDayDatas_data = data['data']['tokenDayDatas']
 
+# deal with data, and save as xlsx file
 def burns(burns_data):
 # Expand the nested pair structure
     for item in burns_data:
@@ -223,7 +224,7 @@ def tokenDayDatas(tokenDayDatas_data):
 
 
 
-# call these function
+# call these function to save data
 swaps(swaps_data)
 burns(burns_data)
 mints(mints_data)
