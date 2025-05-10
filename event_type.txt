@@ -1,0 +1,9 @@
+{'data': {'__type': {'fields': [{'name': 'id', 'type': {'kind': 'NON_NULL', 'name': None}}, 
+{'name': 'transaction', 'type': {'kind': 'NON_NULL', 'name': None}}, 
+{'name': 'timestamp', 'type': {'kind': 'NON_NULL', 'name': None}}, 
+{'name': 'pair', 'type': {'kind': 'NON_NULL', 'name': None}}, {'name': 'liquidity', 'type': {'kind': 'NON_NULL', 'name': None}},
+ {'name': 'sender', 'type': {'kind': 'SCALAR', 'name': 'Bytes'}}, {'name': 'amount0', 'type': {'kind': 'SCALAR', 'name': 'BigDecimal'}}, 
+{'name': 'amount1', 'type': {'kind': 'SCALAR', 'name': 'BigDecimal'}}, {'name': 'to', 'type': {'kind': 'SCALAR', 'name': 'Bytes'}},
+ {'name': 'logIndex', 'type': {'kind': 'SCALAR', 'name': 'BigInt'}}, {'name': 'amountUSD', 'type': {'kind': 'SCALAR', 'name': 'BigDecimal'}}, 
+{'name': 'needsComplete', 'type': {'kind': 'NON_NULL', 'name': None}}, {'name': 'feeTo', 'type': {'kind': 'SCALAR', 'name': 'Bytes'}}, 
+{'name': 'feeLiquidity', 'type': {'kind': 'SCALAR', 'name': 'BigDecimal'}}], 'name': 'Burn'}}}
